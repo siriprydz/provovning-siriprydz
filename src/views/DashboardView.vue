@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1>{{ greeting }}</h1>
-    <img src="../assets/hero.jpg" class="hero" alt="" loading="lazy">
+    <img src="../assets/hero.jpg" class="hero" alt="" width="1600" height="800">
 
     <div class="grid">
       <div class="card">
@@ -52,5 +52,5 @@ onMounted(() => {
 </script>
 
 <style scoped>
-.hero { width: 100%; border-radius: 10px; margin-bottom: 18px; }
+.hero { width: 100%; height: auto; border-radius: 10px; margin-bottom: 18px; }
 </style>
